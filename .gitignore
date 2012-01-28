@@ -13,3 +13,5 @@ scribe.iml
 # Binaries
 
 target
+src/main/bin/
+src/test/bin/
