@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Scribe-java
 Bundle-SymbolicName: scribe-java
-Bundle-Version: 1.3.0.1-osgi
+Bundle-Version: 1.3.0.2-osgi
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Export-Package: org.scribe.builder;uses:="org.scribe.builder.api,org.scribe.model,org.scribe.oauth",
  org.scribe.builder.api;
