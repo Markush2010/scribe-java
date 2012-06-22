@@ -1,11 +1,14 @@
 package org.scribe.model;
 
-import java.io.*;
-import java.net.*;
-import java.util.*;
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.HttpURLConnection;
+import java.net.UnknownHostException;
+import java.util.HashMap;
+import java.util.Map;
 
-import org.scribe.exceptions.*;
-import org.scribe.utils.*;
+import org.scribe.exceptions.OAuthException;
+import org.scribe.utils.StreamUtils;
 
 /**
  * Represents an HTTP Response.
@@ -14,8 +17,6 @@ import org.scribe.utils.*;
  */
 public class Response
 {
-  private static final String EMPTY = "";
-
   private int code;
   private String body;
   private InputStream stream;
