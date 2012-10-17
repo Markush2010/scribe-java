@@ -4,6 +4,8 @@
 .classpath
 .project
 .settings
+!src/main/.classpath
+!src/main/.project
 
 # IntelliJ Idea settings
 
